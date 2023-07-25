@@ -233,6 +233,13 @@ img {
   background-repeat: no-repeat;
 }
 
+@media only screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg@2x.jpg);
+  }
+}
+
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
